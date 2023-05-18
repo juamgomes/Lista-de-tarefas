@@ -5,8 +5,7 @@ import { AddArea } from "./components/AddArea";
 
 const App = () => {
   const [list, setList] = useState<Item[]>([
-    { id: 1, name: 'Comprar o pão', done: false},
-    { id: 1, name: 'Comprar café', done: false }
+    
   ]);
 
   const handleAddTask = (taskName: string) => {
@@ -18,6 +17,8 @@ const App = () => {
     });
     setList(newList);
   }
+
+  
 
   return (
     <div className="bg-zinc-700 text-zinc-100 min-h-screen">
