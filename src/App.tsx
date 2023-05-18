@@ -1,24 +1,9 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="bg-zinc-700 text-zinc-100 min-h-screen">
+      <div className="m-auto max-w-4xl p-3">
+        <h1 className="m-0 font-semibold text-4xl p-0 text-center border-b border-zinc-600 pb-5">Lista de tarefas</h1>
+      </div>
     </div>
   );
 }
